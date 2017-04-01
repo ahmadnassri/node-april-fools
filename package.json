@@ -1,0 +1,31 @@
+{
+  "version": "1.1.0",
+  "name": "april-fools",
+  "description": "A time bomb that will throw a randomly generated `Error` on April 1st.",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/ahmadnassri/april-fools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadnassri/april-fools.git"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "april",
+    "fools",
+    "format",
+    "error"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/april-fools/issues"
+  },
+  "dependencies": {
+    "sentencer": "^0.1.5"
+  }
+}
