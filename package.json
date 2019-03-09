@@ -26,6 +26,6 @@
     "url": "https://github.com/ahmadnassri/april-fools/issues"
   },
   "dependencies": {
-    "sentencer": "^0.1.5"
+    "sentencer": "^0.2.0"
   }
 }
