@@ -1,12 +1,16 @@
-# April Fools [![License][license-image]][license-url]
+# April Fools
 
-> A time bomb that will throw a randomly generated `Error` on April 1st.
+A time bomb that will throw a randomly generated `Error` on April 1st
 
-**WARNING: This is a foolproof way to lose friends and alienate people. Will likely get you fired!**
+[![license][license-img]][license-url]
+[![release][release-img]][release-url]
+[![semantic][semantic-img]][semantic-url]
+
+> **WARNING: This is a foolproof way to lose friends and alienate people. Will likely get you fired!**
 
 ## Install
 
-```bash
+``` bash
 npm install april-fools
 ```
 
@@ -14,15 +18,15 @@ npm install april-fools
 
 Require anywhere in your app:
 
-```js
+``` js
 require('april-fools')
 ```
 
 364 days a year, this will do nothing.
 
-on April 1st, it will **randomly** `throw` an `Error` with a _(hopefully)_ funny message:
+on April 1st, it will **randomly** `throw` an `Error` with a *(hopefully)* funny message:
 
-```
+``` plain
 /path/to/your/app.js:9
   throw new Error(message)
   ^
@@ -40,11 +44,15 @@ Error: Unexpected keyboard with a focused architecture
     at bootstrap_node.js:538:3
 ```
 
----
-> :copyright: [ahmadnassri.com](https://www.ahmadnassri.com/) · 
-> License: [ISC][license-url] · 
-> Github: [@ahmadnassri](https://github.com/ahmadnassri) · 
-> Twitter: [@ahmadnassri](https://twitter.com/ahmadnassri)
+----
+> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;
+> Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
 
-[license-url]: http://choosealicense.com/licenses/isc/
-[license-image]: https://img.shields.io/github/license/ahmadnassri/pretty-exceptions.svg?style=flat-square
+[license-url]: LICENSE
+[license-img]: https://badgen.net/github/license/ahmadnassri/node-april-fools
+
+[release-url]: https://github.com/ahmadnassri/node-april-fools/releases
+[release-img]: https://badgen.net/github/release/ahmadnassri/node-april-fools
+
+[semantic-url]: https://github.com/ahmadnassri/node-april-fools/actions?query=workflow%3Arelease
+[semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue

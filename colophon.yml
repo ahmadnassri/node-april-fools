@@ -1,0 +1,8 @@
+version: 2.0
+
+id: node-april-fools
+
+about:
+  title: April Fools
+  description: A time bomb that will throw a randomly generated `Error` on April 1st
+  repository: ahmadnassri/node-april-fools

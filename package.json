@@ -1,15 +1,21 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "name": "april-fools",
-  "description": "A time bomb that will throw a randomly generated `Error` on April 1st.",
-  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
-  "homepage": "https://github.com/ahmadnassri/april-fools",
+  "description": "A time bomb that will throw a randomly generated `Error` on April 1st",
+  "author": "Ahmad Nassri <opensource@ahmadnassri.net> (https://www.ahmadnassri.com)",
+  "homepage": "https://github.com/ahmadnassri/node-april-fools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadnassri/april-fools.git"
+    "url": "https://github.com/ahmadnassri/node-april-fools.git"
   },
-  "license": "ISC",
-  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/node-april-fools/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/ahmadnassri"
+  },
+  "license": "MIT",
   "keywords": [
     "april",
     "fools",
@@ -20,12 +26,16 @@
     "node": ">=4"
   },
   "files": [
-    "index.js"
+    "src"
   ],
-  "bugs": {
-    "url": "https://github.com/ahmadnassri/april-fools/issues"
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo no tests",
+    "test:ci": "npm run test",
+    "test:watch": "npm run test",
+    "test:report": "npm run test"
   },
   "dependencies": {
-    "sentencer": "^0.1.5"
+    "sentencer": "^0.2.1"
   }
 }
